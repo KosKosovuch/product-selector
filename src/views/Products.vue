@@ -7,7 +7,10 @@
         cols="12"
         sm="4"
       >
-        <RouterLink :to="$route.path + '/' + product.to">
+        <RouterLink
+          class="text-decoration-none"
+          :to="$route.path + '/' + product.to"
+        >
           <VCard
             tag="span"
             class="mx-auto"
